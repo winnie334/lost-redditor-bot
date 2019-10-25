@@ -1,0 +1,1 @@
+A simple reddit bot which responds "r/lostredditors" to a comment linking to the subreddit it's in. Yea.
