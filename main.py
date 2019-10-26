@@ -1,7 +1,6 @@
 import praw, os, time, datetime, random, re
 from praw.models import Comment
 
-
 def log_in():
     print('Logging in...')
     bot = praw.Reddit(user_agent='LostRedditors by winnie33',
@@ -33,3 +32,4 @@ def respond_to_comment(comment):
 if __name__ == "__main__":
     bot = log_in()
     scan_and_respond(bot)
+
