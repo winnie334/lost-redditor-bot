@@ -1,6 +1,7 @@
 import praw, os, time, datetime, random, re
 from praw.models import Comment
 
+
 def log_in():
     print('Logging in...')
     bot = praw.Reddit(user_agent='LostRedditors by winnie33',
@@ -35,11 +36,10 @@ def respond_to_comment(comment):
 
 def write_to_file(currentSub, referencedSub):
     currentTime = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
-    with open("allReferences.txt", "a") as f:
+    with open("allReferences.txt", "a", encoding='utf-8') as f:
         f.write(currentTime + "," + currentSub + "," + referencedSub + "\n")
 
 
 if __name__ == "__main__":
     bot = log_in()
     scan_and_respond(bot)
-
