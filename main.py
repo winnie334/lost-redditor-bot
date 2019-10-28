@@ -19,8 +19,8 @@ def scan_and_respond(bot):
             print(comment.body.lower(), "- found in", comment.subreddit)
             referencedSub = comment.body.lower().replace("/r/", "").replace("r/", "")
             currentSub = str(comment.subreddit).lower()
-            write_to_file(currentSub, referencedSub)
-            if referencedSub == currentSub and currentSub not in ["lostredditors", "whoosh", "askreddit"]:
+            write_to_file(currentSub, referencedSub, "https://www.reddit.com" + comment.permalink)
+            if referencedSub == currentSub and currentSub not in ["lostredditors", "whoosh", "askreddit", "whoooosh"]:
                 try:
                     respond_to_comment(comment)
                 except Exception as e:
@@ -34,10 +34,10 @@ def respond_to_comment(comment):
     print("responding to comment at https://www.reddit.com"+ comment.permalink)
     comment.reply("r/lostredditors")
 
-def write_to_file(currentSub, referencedSub):
+def write_to_file(currentSub, referencedSub, link):
     currentTime = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
     with open("allReferences.txt", "a", encoding='utf-8') as f:
-        f.write(currentTime + "," + currentSub + "," + referencedSub + "\n")
+        f.write(currentTime + "," + currentSub + "," + referencedSub + "," + link + "\n")
 
 
 if __name__ == "__main__":
