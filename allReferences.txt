@@ -42,7 +42,7 @@
 2019-10-27_13:29:54,whatcouldgowrong,idiotsincars
 2019-10-27_13:30:01,softwaregore,foundthepcuser
 2019-10-27_13:30:07,lodeddiper,tiht
-2019-10-27_13:30:48,theouterworlds,i�m14andthisisdeep
+2019-10-27_13:30:48,theouterworlds,i’m14andthisisdeep
 2019-10-27_13:30:54,funny,curseddrseuss
 2019-10-27_13:30:59,onejob,antimeme
 2019-10-27_13:31:37,imveryedgy,im14andthisiswoooosh
@@ -1337,7 +1337,7 @@
 2019-10-27_19:48:56,carporn,atbge
 2019-10-27_19:49:03,memes,holup
 2019-10-27_19:49:29,absoluteunits,lostredditors
-2019-10-27_19:49:42,dontputyourdickinthat,don’tputyourdickinthat
+2019-10-27_19:49:42,dontputyourdickinthat,donâ€™tputyourdickinthat
 2019-10-27_19:49:42,blackops4,thathappened
 2019-10-27_19:50:02,findapath,solotravel
 2019-10-27_19:50:07,tennesseetitans,holup
@@ -1860,7 +1860,7 @@
 2019-10-28_01:25:47,exposedinpublic,beckycrocker
 2019-10-28_01:26:25,natureisfuckinglit,absoluteunits
 2019-10-28_01:26:25,publicfreakout,pussypassdenied
-2019-10-28_01:26:29,memes,😐
+2019-10-28_01:26:29,memes,ðŸ˜
 2019-10-28_01:27:26,rainbow6,we_wanna_fuck_siren
 2019-10-28_01:27:52,unexpected,cursedcomments
 2019-10-28_01:27:52,wtf,untrustworthypoptarts
@@ -1898,3 +1898,4 @@
 2019-10-28_01:43:12,askreddit,eyebleach
 2019-10-28_01:43:23,dankmemesfromsite19,beatmetoit
 2019-10-28_21:05:08,animalsbeingderps,blep,https://www.reddit.com/r/AnimalsBeingDerps/comments/do854o/derp_mode_activated/f5ms9xg/
+

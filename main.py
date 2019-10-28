@@ -39,7 +39,6 @@ def write_to_file(currentSub, referencedSub, link):
     with open("allReferences.txt", "a", encoding='utf-8') as f:
         f.write(currentTime + "," + currentSub + "," + referencedSub + "," + link + "\n")
 
-
 if __name__ == "__main__":
     bot = log_in()
     scan_and_respond(bot)
